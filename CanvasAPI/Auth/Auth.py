@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+###
+# Copyright (c) 2024 Haofan Zheng
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file or at
+# https://opensource.org/licenses/MIT.
+###
+
+
+class Auth(object):
+
+	def __init__(self) -> None:
+		super(Auth, self).__init__()
+
+	def AddAuth(self, headers: dict) -> None:
+		raise NotImplementedError('AddAuth not implemented')
